@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "422578066563",
+    "project_id": "itelishver3",
+    "storage_bucket": "itelishver3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422578066563:android:1f8938cb5effd082b777b6",
+        "android_client_info": {
+          "package_name": "com.example.itelishver3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422578066563-nlk9ijh8d6aonvspuqkebt8rplpc3e7g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXjdMsvNTc3uX3DnPEloMd7NjCeAptYes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422578066563-nlk9ijh8d6aonvspuqkebt8rplpc3e7g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

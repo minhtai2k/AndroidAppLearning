@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:strokeColor="@color/grey"
+    app:strokeWidth="1dp"
+    app:cardCornerRadius="10dp"
+    android:layout_height="180dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imv_speaker_conversation_admin"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|left"
+            android:src="@drawable/ic_baseline_quiz_24" />
+
+        <TextView
+            android:id="@+id/item_question_admin_th_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imv_speaker_conversation_admin"
+            android:fontFamily="@font/nunito_extrabold"
+            android:gravity="center"
+            android:text="Question"
+            android:textColor="@color/green"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/item_optionA_admin_th_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_question_admin_th_activity"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@+id/imv_speaker_conversation_admin"
+            android:fontFamily="@font/nunito_extrabold"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:text="Option A"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/item_optionB_admin_th_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_optionA_admin_th_activity"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@+id/imv_speaker_conversation_admin"
+            android:fontFamily="@font/nunito_extrabold"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:text="Option B"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/item_optionC_admin_th_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_optionB_admin_th_activity"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@+id/imv_speaker_conversation_admin"
+            android:fontFamily="@font/nunito_extrabold"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:text="Option C"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/item_optionD_admin_th_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_optionC_admin_th_activity"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@+id/imv_speaker_conversation_admin"
+            android:fontFamily="@font/nunito_extrabold"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:text="Option D"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/item_answer_admin_th_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_optionD_admin_th_activity"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@+id/imv_speaker_conversation_admin"
+            android:fontFamily="@font/nunito_extrabold"
+            android:gravity="center"
+            android:textColor="@color/blue"
+            android:paddingLeft="5dp"
+            android:text="Answer"
+            android:textSize="18dp" />
+
+
+    </RelativeLayout>
+
+
+
+
+</com.google.android.material.card.MaterialCardView>

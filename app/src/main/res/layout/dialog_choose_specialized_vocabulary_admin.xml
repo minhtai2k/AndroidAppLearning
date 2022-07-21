@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="300dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_title_dialog_choose_level_vocabulary_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:gravity=""
+            android:text="Chọn chuyên ngành"
+            android:textColor="@color/primary_text"
+            android:textSize="25dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_cnpm_dialog_choose_specialized_vocabulary_admin"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/tv_title_dialog_choose_level_vocabulary_admin"
+            android:layout_marginLeft="15dp"
+            android:backgroundTint="#FFFFFF"
+            android:elevation="10dp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:gravity="center"
+            android:text="Công nghệ phần mềm"
+            android:textAllCaps="false"
+            android:textColor="@color/cardview_home_tvcn"
+            app:cornerRadius="10dp"
+            app:strokeColor="@color/cardview_home_tvcn"
+            app:strokeWidth="1dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_mmt_dialog_choose_specialized_vocabulary_admin"
+            style="@android:style/MediaButton"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/tv_title_dialog_choose_level_vocabulary_admin"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="-111dp"
+            android:layout_marginRight="15dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/nunito_extrabold"
+            android:text="Mạng máy tính"
+            android:textAllCaps="false"
+            android:textColor="@color/cardview_home_tvcn"
+            app:cornerRadius="10dp"
+            app:strokeColor="@color/cardview_home_tvcn"
+            app:strokeWidth="1dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_csdl_vocabulary_activity"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/btn_cnpm_dialog_choose_specialized_vocabulary_admin"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/nunito_extrabold"
+            android:text="Cơ sở dữ liệu"
+            android:textAllCaps="false"
+            android:textColor="@color/cardview_home_tvcn"
+            app:cornerRadius="10dp"
+            app:strokeColor="@color/cardview_home_tvcn"
+            app:strokeWidth="1dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_httt_vocabulary_activity"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/btn_mmt_dialog_choose_specialized_vocabulary_admin"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/nunito_extrabold"
+            android:text="Hệ thống thông tin"
+            android:textAllCaps="false"
+            android:textColor="@color/cardview_home_tvcn"
+            app:cornerRadius="10dp"
+            app:strokeColor="@color/cardview_home_tvcn"
+            app:strokeWidth="1dp" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

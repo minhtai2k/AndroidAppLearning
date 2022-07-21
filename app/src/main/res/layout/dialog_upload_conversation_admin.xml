@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="380dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:strokeColor="@color/grey"
+    app:strokeWidth="3dp"
+    app:cardCornerRadius="10dp"
+    android:layout_height="560dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:text="Conversation"
+            android:fontFamily="casual"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:hint="Question"
+            android:fontFamily="@font/nunito_extrabold"
+            android:id="@+id/edt_question_upload_conversation_admin_dialog"
+            android:layout_height="70dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:hint="Câu hỏi"
+            android:fontFamily="@font/nunito_extrabold"
+            android:id="@+id/edt_questionVS_upload_conversation_admin_dialog"
+            android:layout_height="70dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edt_question_upload_conversation_admin_dialog" />
+
+        <EditText
+            android:fontFamily="@font/nunito_extrabold"
+            android:hint="Answer"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/edt_answer_upload_conversation_admin_dialog"
+            android:layout_height="70dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edt_questionVS_upload_conversation_admin_dialog" />
+
+        <EditText
+            android:fontFamily="@font/nunito_extrabold"
+            android:hint="Câu hỏi"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/edt_answerVS_upload_conversation_admin_dialog"
+            android:layout_height="70dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edt_answer_upload_conversation_admin_dialog" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_delete_dialog_edit_conversation_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/nunito_extrabold"
+            android:text="Delete"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            app:cornerRadius="10dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edt_answerVS_upload_conversation_admin_dialog"
+            app:strokeColor="@color/grey"
+            app:strokeWidth="1dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:fontFamily="@font/nunito_extrabold"
+            android:id="@+id/btn_update_dialog_edit_conversation_admin"
+            app:layout_constraintTop_toBottomOf="@+id/btn_delete_dialog_edit_conversation_admin"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            app:strokeWidth="1dp"
+            android:layout_marginTop="10dp"
+            app:strokeColor="@color/grey"
+            android:textAllCaps="false"
+            android:text="Upload"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:cornerRadius="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:fontFamily="@font/nunito_extrabold"
+            android:id="@+id/btn_back_dialog_upload_conversation_admin"
+            app:layout_constraintTop_toBottomOf="@+id/btn_update_dialog_edit_conversation_admin"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            app:strokeWidth="1dp"
+            android:layout_marginTop="10dp"
+            app:strokeColor="@color/grey"
+            android:textAllCaps="false"
+            android:text="Back"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:cornerRadius="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

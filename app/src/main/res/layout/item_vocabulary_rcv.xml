@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:strokeColor="@color/grey"
+    app:strokeWidth="1dp"
+    app:cardCornerRadius="10dp"
+    android:layout_height="60dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imv_speaker_vocab_admin"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|left"
+            android:src="@drawable/ic_baseline_volume_up_24" />
+
+        <TextView
+            android:id="@+id/item_vocab_admin_activity"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/imv_speaker_vocab_admin"
+            android:gravity="center"
+            android:text="Vocab"
+            android:textColor="@color/green"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/item_pronounce_admin_activity"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/item_vocab_admin_activity"
+            android:gravity="left|center"
+            android:paddingLeft="5dp"
+            android:text="Pronounce"
+            android:textSize="16dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/item_mean_admin_activity"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/item_pronounce_admin_activity"
+            android:gravity="center"
+            android:text="Mean"
+            android:textColor="@color/blue"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+
+
+
+</com.google.android.material.card.MaterialCardView>
